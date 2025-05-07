@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESTELA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  
+  <!-- ナビゲーション -->
+  <header class="header">
+    <div class="container">
+      <h1 class="header-logo">estela</h1>
+      <nav class="nav-pc">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">home</a></li>
+          <li class="nav-item"><a href="about.html">about</a></li>
+          <li class="nav-item"><a href="news.html">news</a></li>
+          <li class="nav-item"><a href="menu.html">menu</a></li>
+          <li class="nav-item"><a href="staff.html">staff</a></li>
+          <li class="nav-item"><a href="style.html">style</a></li>
+          <li class="nav-item"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+      
+      <!-- ハンバーガーメニュー -->
+      <div class="hamburger" id="js-hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    
+      <!-- SP用ナビゲーション -->
+      <nav class="nav-sp">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">home</a></li>
+          <li class="nav-item"><a href="about.html">about</a></li>
+          <li class="nav-item"><a href="news.html">news</a></li>
+          <li class="nav-item"><a href="menu.html">menu</a></li>
+          <li class="nav-item"><a href="staff.html">staff</a></li>
+          <li class="nav-item"><a href="style.html">style</a></li>
+          <li class="nav-item"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main id="main-content">
+    <!-- ロゴ -->
+    <div class="main-visual">
+      <img src="img/main-visual.png" alt="ESTELAロゴ" id="main-logo">
+    </div>
+
+    <!-- ボタン -->
+    <div class="button-container">
+      <a href="about.html" class="btn btn-about">
+        <img src="img/hairstyle-9.png" alt="About">
+        <div class="button-label">About</div>
+      </a>
+      <a href="news.html" class="btn btn-news">
+        <img src="img/plant-7.png" alt="News">
+        <div class="button-label">News</div>
+      </a>
+      <a href="menu.html" class="btn btn-menu">
+        <img src="img/plant-6.png" alt="Menu">
+        <div class="button-label">Menu</div>
+      </a>
+      <a href="staff.html" class="btn btn-staff">
+        <img src="img/hairstyle-1.png" alt="Staff">
+        <div class="button-label">Staff</div>
+      </a>
+      <a href="style.html" class="btn btn-style">
+        <img src="img/Interior-2.png" alt="Style">
+        <div class="button-label">Style</div>
+      </a>
+      <a href="contact.html" class="btn btn-contact">
+        <img src="img/Interior-4.png" alt="Contact">
+        <div class="button-label">Contact</div>
+      </a>
+    </div>
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
