@@ -1,0 +1,127 @@
+/*--------------------------------
+    mv（各ページ共通）
+ ---------------------------------*/
+.mv-title {
+  font-size: clamp(40px, 6vw, 80px);
+  font-weight: bold;
+  letter-spacing: 50px;
+  opacity: 0.7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.mv {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.mv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*--------------------------------
+    menuページ
+ ---------------------------------*/
+.menu-section {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.menu-section h3 {
+  font-size: 20px;
+  border-bottom: 1px solid #BDB9B9;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px 0;
+  border-bottom: 1px solid #BDB9B9;
+}
+
+.menu-text {
+  flex: 1;
+  font-weight: 500;
+}
+
+.menu-price {
+  min-width: 100px;
+  text-align: right;
+}
+
+.menu-note {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+}
+
+
+
+
+
+
+
+/*--------------------------------
+    styleページ
+ ---------------------------------*/
+/* スタイルギャラリー 後で修正　→ 画像のサイズ調整必要 */
+.style-gallery-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.style-gallery {
+  text-align: center;
+}
+
+.style-thumbnail {
+  width: 180px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.style-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.glightbox-container .gcontainer {
+  background-color: #DCDCDC !important;
+}
+
+.gdesc {
+  background-color: #DCDCDC !important;
+  color: black !important;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.gdesc-inner {
+  background-color: #DCDCDC;
+}
