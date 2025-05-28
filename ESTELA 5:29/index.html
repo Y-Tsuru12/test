@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>estela</title>
+  <link rel="stylesheet" href="Commons/css/home.css">
+  <link rel="stylesheet" href="Commons/css/commons.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Yomogi&family=Yusei+Magic&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="Commons/js/home.js"></script>
+  <!-- UI操作 -->
+  <script src="Commons/js/common.js"></script>
+  <!-- icon -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+
+<body>
+  <!-- 共通ヘッダー -->
+  <header class="header english">
+    <div class="container">
+      <h1 class="header-logo">
+        <a href="#">estela</a>
+      </h1>
+
+      <!-- PC用ナビゲーション -->
+      <div class="nav">
+        <nav class="nav-pc">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about">about</a></li>
+            <li class="nav-item"><a href="pages/Menu/index.html">menu</a></li>
+            <li class="nav-item"><a href="pages/Staff/index.html">staff</a></li>
+            <li class="nav-item"><a href="pages/Style/index.html">style</a></li>
+            <li class="nav-item"><a href="pages/News/index.html">news</a></li>
+            <li class="nav-item"><a href="pages/School/index.html">school</a></li>
+            <li class="nav-item"><a href="pages/Contact/index.html">contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger" id="js-hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+        
+      <!-- SP用ナビゲーション -->
+      <nav class="nav-sp" id="js-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">home</a></li>
+          <li class="nav-item"><a href="#about">about</a></li>
+          <li class="nav-item"><a href="pages/Menu/index.html">menu</a></li>
+          <li class="nav-item"><a href="pages/Staff/index.html">staff</a></li>
+          <li class="nav-item"><a href="pages/Style/index.html">style</a></li>
+          <li class="nav-item"><a href="pages/School/index.html">school</a></li>
+          <li class="nav-item"><a href="pages/News/index.html">news</a></li>
+          <li class="nav-item"><a href="pages/Contact/index.html">contact</a></li>
+        </ul>
+        <div class="other-link-sp">
+          <a class="instagram" href="https://www.instagram.com/estela_2025_0402?igsh=MXM5dm5leWhsbTN6eg==">
+            <span class="iconify" data-icon="mdi:instagram"></span>
+          </a>
+          <a class="hotpepper" href="https://beauty.hotpepper.jp/slnH000750466/">HOT PEPPER<br>Beauty</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /共通ヘッダー  -->
+
+  <main>
+    <!-- メインビジュアル -->
+    <div id="main-content">
+      <!-- ロゴ -->
+      <div class="main-visual">
+        <img src="Commons/images/main-visual.png" alt="ESTELAロゴ" id="main-logo">
+      </div>
+      
+      <!-- ボタン -->
+      <div class="button-container">
+        <a href="#about" class="btn btn-about">
+          <img src="Commons/images/Interior-2.png" alt="about" width="" height="">
+          <div class="button-label english">about</div>
+        </a>
+        <a href="pages/News/index.html" class="btn btn-news">
+          <img src="Commons/images/plant-2.png" alt="News" width="" height="">
+          <div class="button-label english">news</div>
+        </a>
+        <a href="pages/Menu/index.html" class="btn btn-menu">
+          <img src="Commons/images/Interior-4.png" alt="Menu" width="" height="">
+          <div class="button-label english">menu</div>
+        </a>
+        <a href="pages/Staff/index.html" class="btn btn-staff">
+          <img src="Commons/images/plant-3.png" alt="Staff" width="" height="">
+          <div class="button-label english">staff</div>
+        </a>
+        <a href="pages/Style/index.html" class="btn btn-style">
+          <img src="Commons/images/hairstyle-2.png" alt="Style" width="" height="">
+          <div class="button-label english">style</div>
+        </a>
+        <a href="pages/Contact/index.html" class="btn btn-contact">
+          <img src="Commons/images/plant-5.png" alt="Contact" width="" height="">
+          <div class="button-label english">contact</div>
+        </a>
+        <a href="pages/School/index.html" class="btn btn-school">
+          <img src="Commons/images/school-8.png" alt="school" width="" height="">
+          <div class="button-label english">school</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- スクロールボタン -->
+    <div class="scroll-down">
+      <a href="#about h2" class="scroll-down-text">
+        <span class="scroll-text english">scroll</span>
+        <span class="scroll-arrow"></span>
+      </a>
+    </div>
+
+    <!-- about -->
+    <section class="section about" id="about">
+      <h2 class="english">about</h2>
+      <div class="about-top">
+        <div class="about-left">
+          <p>阪急園田にあるヘアセットと着付け、特殊ヘアに特化したサロンです。
+          <br>ヘアセットは最短15分!経験豊富なスタイリストが1日中崩れないヘアをご提供します。
+          <br>キッズダンスのヘアスタイルや、コーンロウやブレイズなどの特殊ヘアもお任せ下さい。
+          <br>早朝6時から、夜20時以降も施術可能です。（別料金）
+          </p>
+          <p class="menu-example-title">【 MENU一例 】</p>
+          <div class="about-menu" id="about-menu">
+            <ul class="menu-example-list">
+              <li class="menu-example-item">
+                <span class="menu-example-text">ヘアセット（和装ヘア）</span>
+                <span class="menu-example-price">¥4,400</span>
+              </li>
+              <li class="menu-example-item">
+                <span class="menu-example-text">トリートメント（スタンダード）</span>
+                <span class="menu-example-price">¥7,700</span>
+              </li>
+              <li class="menu-example-item">
+                <span class="menu-example-text">ヘッドスパ（2STEP）</span>
+                <span class="menu-example-price">¥3,850</span>
+              </li>
+              <li class="menu-example-item">
+                <span class="menu-example-text">着付け（留袖）</span>
+                <span class="menu-example-price">¥9,900</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-example-link">
+            <p>その他、まつげエクステ、メイク、ヘアセットと着付けのセットメニューもございます。</p>
+            <a href="pages/Menu/index.html">MENUはこちら</a>
+          </div>
+        </div>
+        <img src="Commons/images/Interior-1.png" alt="">
+      </div>
+      <div class="about-bottom">
+        <img src="Commons/images/Interior-3.png" alt="">
+        <div class="about-right">
+          <p>阪急園田駅から徒歩1分
+          <br>店長は以前、同じ園田のサロンガッタネーラというお店に5年半いましたが、2025年4月2日より便利な駅前に引越しました。
+          </p>
+          <a href="#store-info">アクセスなど店舗情報はこちら</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- staff -->
+    <section class="section staff" id="staff">
+      <h2 class="english">staff</h2>
+      <div class="staff-container">
+        <div class="staff-left">
+          <p>店内は白、黒、グレーを基調としており、植物やお花もあるグリーンで溢れています。お客様に満足していただきたいというスタッフの想いが詰まった空間です。
+          <br>エステラのスタッフはお客様に満足していただける技術と接客、そして空間づくりも心掛けております。</p>
+          <a href="pages/Staff/index.html">STAFF紹介</a>
+        </div>
+        <img src="Commons/images/school-1.png" alt="お客様のヘアセット中のスタッフの写真" width="" height="">
+      </div>
+    </section>
+
+    <!-- style -->
+    <section class="section style" id="style">
+      <h2 class="english">style</h2>
+      <div class="style-container">
+        <!-- スライドショー -->
+        <div class="slide-show">
+          <div class="slide-item" style="background-image: url('Commons/images/hairstyle-4.png')"></div>
+          <div class="slide-item" style="background-image: url('Commons/images/hairstyle-5.png')"></div>
+          <div class="slide-item" style="background-image: url('Commons/images/wasou-2.png')"></div>
+        </div>
+
+        <div class="style-right">
+          <p>丁寧なカウンセリングで、あなたの希望や要望を実現します。
+          <br>成人式・七五三・お宮参りなどの着付け、キッズダンスのヘアや特殊ヘア(コーンロウ/ブレイズ等)もお任せください。
+          <br>大切な日を華やかに演出し、周りと差が付くワンランク上のスタイルへ、経験豊富なスタッフが着付けもヘアセットも崩れにくく、綺麗に仕上げます。</p>
+          <a href="pages/Style/index.html">STYLE一覧</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section class="section news" id="news">
+      <h2 class="english">news</h2>
+      <div class="news-container">
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">2025-04-20</span>
+            <span class="news-text">激推し髪質改善メニュー</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2025-04-24</span>
+            <span class="news-text">かわいいヘアアクセサリー入荷しました。</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2025-05-11</span>
+            <span class="news-text">大阪万博に先日行ってきました！</span>
+          </li>
+        </ul>
+        <div class="news-more">
+          <a href="">Read More</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- contact -->
+    <section class="section contact" id="contact">
+      <h2 class="english">contact</h2>
+      <div class="contact-container">
+        <img src="Commons/images/plant-1.png" alt="" width="" height="">
+        <div class="contact-right">
+          <p>阪急園田駅から徒歩1分
+          <br>店長は以前、同じ園田のサロンガッタネーラというお店に5年半いましたが、2025年4月2日より便利な駅前に引越しました。
+          </p>
+          <a href="#store-information">アクセスなど店舗情報はこちら</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- store information -->
+    <section class="section store-info" id="store-info">
+      <h2 class="english">store information</h2>
+      <div class="store-info-container">
+        <div class="store-left">
+          <p><strong>営業時間</strong>
+            <br>10:00 ～ 20:00　定休日：不定休
+            <br>早朝 6:00 ～ 10:00
+            <br>深夜 20:00 ～ 23:00
+            <br><small>※早朝・深夜は別途料金が必要です。</small>
+          </p>
+          <p><strong>電話番号</strong>
+            <br>070-9090-5646
+          </p>
+          <p><strong>所在地</strong>
+            <br>兵庫県尼崎市東園田町5丁目142-1 法界寺ビル2F
+          </p>
+          <p><strong>アクセス</strong>
+            <br>阪急神戸線園田駅から徒歩1分
+            <br>園田駅北口を降りて、横断歩道を渡ります。
+            <br>広場を抜けて右手にある「花屋さん、和菓子屋さん、整骨院」のあるビルの2Fです。
+            <br>（入口はビルの裏側です。）
+            <br>
+            <small>※お車や自転車の方は、近くのコインパーキングや駅の駐輪場をご利用ください。</small>
+          </p>
+        </div>
+
+        <div class="store-map store-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.1223133786375!2d135.445962175843!3d34.75251157290136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000eff5c217afa9%3A0x70fb27c8cff91dbc!2z44CSNjYxLTA5NTMg5YW15bqr55yM5bC85bSO5biC5p2x5ZyS55Sw55S677yV5LiB55uu77yR77yU77yS4oiS77yR!5e0!3m2!1sja!2sjp!4v1748030280637!5m2!1sja!2sjp" width="600" height="450" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        
+
+      </div>
+    </section>
+  </main>
+
+  <!--  共通フッター -->
+  <footer>
+    <div class="footer-container">
+      <div class="store-details">
+        <p class="store-name english">estela</p>
+        <p class="store-address">兵庫県 尼崎市 東園田町 5丁目142-1 法界寺ビル2F</p>
+        <p>TEL : 070-9090-5646 </p>
+      </div>
+      <div class="other-link-pc">
+        <a class="instagram" href="https://www.instagram.com/estela_2025_0402?igsh=MXM5dm5leWhsbTN6eg==">
+          <span class="iconify" data-icon="mdi:instagram"></span>
+        </a>
+        <a class="hotpepper" href="https://beauty.hotpepper.jp/slnH000750466/">HOT PEPPER<br>Beauty</a>
+      </div>
+      <p class="copyright english">&copy;estela</p>
+    </div>
+  </footer>
+  <!--  /共通フッター -->
+  
+</body>
+</html>
